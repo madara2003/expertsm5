@@ -1823,7 +1823,8 @@ span.swiper-pagination-bullet-active {
 		padding-top: 12px;
 		border-top: 1px solid #000;
 		margin-left: -26px;
-		font-size: 16px;
+		font-size: 12px;
+		line-height: 16px;
 		width: 271px;
 
 	}
