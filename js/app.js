@@ -42,5 +42,3 @@ document.querySelectorAll(".pricing__btn").forEach(button => {
 	}
   });
 
-
-  let toggleBtn =  document.getElementById("toggleBtn") 

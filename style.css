@@ -4,6 +4,10 @@
   }
 
 /* Basic styling */
+html, body {
+    overflow-x: hidden;
+}
+
 html {
 	scroll-behavior: smooth;
       }
@@ -23,7 +27,7 @@ body {
 	font-weight: 500;
 	width: 100%;
 	margin-inline: auto;
-	background: #030D19;
+	background: #FFFFFF;
 	color: #FFFFFF;
 }
       
@@ -81,6 +85,14 @@ img {
 	background: linear-gradient(to right, #953FF7, #696BFC, #19C7FC);
 	border-radius: 6px;
 	text-decoration: none;
+}
+
+.btn:hover {
+	background: linear-gradient(to right, #953FF7, #19C7FC);
+}
+
+.btn:active {
+	background: #953FF7;
 }
 
 /* Main */
@@ -1151,6 +1163,20 @@ span.swiper-pagination-bullet-active {
 
 }
 
+.pricing__btn {
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.btn__text {
+	font-size: 18px;
+	list-style: 27px;
+	color:#C4CFDE;
+	font-weight: 700;
+}
+
 
 .pricing__it {
 	display: flex;
@@ -1695,6 +1721,14 @@ span.swiper-pagination-bullet-active {
 		width: 50px;
 		height: 50px;
 		border-radius: 50%;
+	}
+
+	.bar:hover {
+		background: linear-gradient(to right, #953FF7, #19C7FC);
+	}
+
+	.bar:active {
+		background: #953FF7;
 	}
 
 	.bar__line {
